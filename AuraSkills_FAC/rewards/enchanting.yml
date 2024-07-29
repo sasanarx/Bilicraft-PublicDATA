@@ -1,0 +1,17 @@
+patterns:
+  - type: stat
+    stat: wisdom
+    value: 0.4
+    pattern:
+      interval: 10
+  - type: stat
+    stat: luck
+    value: 0.3
+    pattern:
+      interval: 10
+  - type: stat
+    stat: regeneration
+    value: 0.3
+    pattern:
+      interval: 10
+levels:

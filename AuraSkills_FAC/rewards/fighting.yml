@@ -1,0 +1,12 @@
+patterns:
+  - type: stat
+    stat: crit_damage
+    value: 1
+    pattern:
+      interval: 10
+  - type: stat
+    stat: strength
+    value: 0.2
+    pattern:
+      interval: 5
+levels:

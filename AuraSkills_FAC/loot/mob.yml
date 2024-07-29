@@ -1,0 +1,29 @@
+type: mob
+pools:
+  enderdragon:
+    base_chance: 100
+    loot:
+      - type: command
+        weight: 2
+        executor: console
+        command: give {player} dragon_head 1
+        mobs: [ender_dragon]
+      - type: command
+        weight: 8
+        executor: console
+        command: give {player} elytra 1
+        mobs: [ender_dragon]
+  piglin:
+    base_chance: 0.01
+    loot:
+      - type: item
+        material: netherite_scrap
+        amount: 0
+        mobs: [piglin]
+  piglin_brute:
+    base_chance: 0.08
+    loot:
+      - type: item
+        material: netherite_scrap
+        amount: 1
+        mobs: [piglin_brute]

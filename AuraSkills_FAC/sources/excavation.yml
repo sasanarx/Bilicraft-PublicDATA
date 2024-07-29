@@ -1,0 +1,65 @@
+default:
+  type: block
+  trigger: break
+  check_replace: true
+  menu_item:
+    material: '{block}'
+sources:
+  dirt:
+    block: dirt
+    xp: 0.2
+  grass_block:
+    block: grass_block
+    xp: 0.5
+  coarse_dirt:
+    block: coarse_dirt
+    xp: 1.2
+  podzol:
+    block: podzol
+    xp: 1.5
+  rooted_dirt:
+    block: rooted_dirt
+    xp: 2.0
+  sand:
+    block: sand
+    xp: 0.2
+  red_sand:
+    block: red_sand
+    xp: 0.5
+  gravel:
+    block: gravel
+    xp: 1.2
+  mycelium:
+    block: mycelium
+    xp: 1.5
+  clay:
+    block: clay
+    xp: 2.0
+  soul_sand:
+    block: soul_sand
+    xp: 2.5
+  soul_soil:
+    block: soul_soil
+    xp: 3.0
+  mud:
+    block: mud
+    xp: 1.5
+  muddy_mangrove_roots:
+    block: muddy_mangrove_roots
+    xp: 2.5
+tags:
+  excavation_luck_applicable:
+  - '*'
+  metal_detector_applicable:
+  - '*'
+  lucky_spades_applicable:
+  - '*'
+  terraform_applicable:
+  - '*'
+  dirts:
+  - dirt
+  - grass_block
+  - mycelium
+  - coarse_dirt
+  - podzol
+  - rooted_dirt

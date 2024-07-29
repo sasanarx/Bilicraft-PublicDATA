@@ -1,0 +1,57 @@
+type: block
+pools:
+  rare:
+    base_chance: 0.5
+    chance_per_luck: 0.05
+    override_vanilla_loot: false
+    loot:
+      - type: item
+        material: experience_bottle
+        weight: 3
+        amount: 1
+        xp: 2
+      - type: item
+        material: raw_iron
+        weight: 10
+        amount: 1-2
+        xp: 4
+        sources: [stone, deepslate]
+      - type: item
+        material: raw_iron
+        weight: 10
+        amount: 1-2
+        xp: 4
+        sources: [stone, deepslate]
+  epic:
+    base_chance: 0.1
+    chance_per_luck: 0.02
+    override_vanilla_loot: false
+    loot:
+      - type: item
+        material: iron_ingot
+        weight: 10
+        amount: 1-3
+        xp: 8
+        sources: [stone, deepslate]
+      - type: item
+        material: gold_ingot
+        weight: 6
+        amount: 1-3
+        xp: 6
+        sources: [stone, deepslate]
+      - type: item
+        material: diamond
+        weight: 2
+        amount: 1
+        xp: 5
+        sources: [stone, deepslate]
+  scrap:
+    base_chance: 0.02
+    chance_per_luck: 0.01
+    override_vanilla_loot: false
+    loot:
+      - type: item
+        material: netherite_scrap
+        amount: 1
+        xp: 20
+        sources: [netherrack, basalt, ancient_debris, magma_block]
