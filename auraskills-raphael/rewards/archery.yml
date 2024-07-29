@@ -1,0 +1,12 @@
+patterns:
+  - type: stat
+    stat: crit_chance
+    value: 1
+    pattern:
+      interval: 10
+  - type: stat
+    stat: wisdom
+    value: 0.2
+    pattern:
+      interval: 10
+levels:

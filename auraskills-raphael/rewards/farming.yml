@@ -1,0 +1,12 @@
+patterns:
+  - type: stat
+    stat: health
+    value: 0.1
+    pattern:
+      interval: 10
+  - type: stat
+    stat: regeneration
+    value: 0.4
+    pattern:
+      interval: 10
+levels:

@@ -1,0 +1,6 @@
+default:
+  expression: (1100 / (1 + theE ^ (-1 * (level) + 500))) * multiplierA + multiplierB * (level) + base
+  theE: 1.01
+  multiplierA: 1.8
+  multiplierB: 0.6
+  base: 100.0
